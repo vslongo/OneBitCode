@@ -1,6 +1,5 @@
 /* const idade = prompt("informe sua idade: ")
 
-
 if (idade > 18){
     alert("Voce e maior de idade")
 }else if ( idade > 12) {
@@ -12,5 +11,4 @@ if (idade > 18){
 } */
 
 const resultado = (6 === 6) ? "verdadeiro" : "falso"
-
 console.log(resultado)
