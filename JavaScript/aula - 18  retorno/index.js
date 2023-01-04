@@ -1,17 +1,14 @@
-function calcularMedia(a, b)
-{
-    const media = ((a + b)/ 2)
+function calcularMedia(a, b) {
+    const media = ((a + b) / 2)
     return media
 }
 
-const resultado = calcularMedia(7,2)
+const resultado = calcularMedia(7, 2)
 
 console.log(resultado)
 
-function criarProduto(nome, preco)
-{
-    const produto = 
-    {
+function criarProduto(nome, preco) {
+    const produto = {
         nome,
         preco,
         estoque: 1
@@ -24,13 +21,12 @@ const notebook = criarProduto("Notebook INtel Core i3 8GB", 2500)
 console.log(notebook)
 
 
-function areaRetangular(base, altura)
-{
+function areaRetangular(base, altura) {
     return base * altura
 
 }
-function areaQuadrado(lado)
-{
+
+function areaQuadrado(lado) {
     return areaRetangular(lado, lado)
 }
 
@@ -38,8 +34,7 @@ function areaQuadrado(lado)
 // console.log(areaRetangular(3, 5))
 // console.log(areaQuadrado(9))
 
-function ola()
-{
+function ola() {
     let texto = "..."
     return texto
     texto = "ola mundo"
@@ -49,11 +44,9 @@ function ola()
 console.log(ola())
 
 function maioridade(idade) {
-    if(idade => 18) 
-    {
+    if (idade => 18) {
         return "Maior de idade"
-    } else 
-    {
+    } else {
         return "Menor de idade"
     }
 }
