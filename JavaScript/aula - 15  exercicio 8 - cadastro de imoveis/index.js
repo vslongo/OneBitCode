@@ -1,18 +1,14 @@
 const imoveis = []
 let opcao = ""
 
-
-do
-{
-    opcao = prompt
-    (
+do {
+    opcao = prompt(
         "Bem-vindo ao cadastro de imoveis! \n" +
-        "Total de imoveis: " +imoveis.length +
+        "Total de imoveis: " + imoveis.length +
         "\n\nEscolha um opcao: \n1. Novo imovel\n2. Listar imoveis\n3. Sair"
     )
 
-    switch(opcao)
-    {
+    switch (opcao) {
         case "1":
             const imovel = {}
 
@@ -21,34 +17,30 @@ do
             imovel.banheiros = prompt("Quantos banheiros possui o imovel?")
             imovel.garagem = prompt("O imovel possui garagem? (Sim/nao)")
 
-            const confirmacao = confirm
-            (
+            const confirmacao = confirm(
                 "Salvar este imovel?\n" +
                 "\nProprietario " + imovel.proprietario +
-                "\nQuartos: " +imovel.quartos +
+                "\nQuartos: " + imovel.quartos +
                 "\nBanheiros: " + imovel.banheiros +
-                "\nPossui garagem? " +imovel.garagem
+                "\nPossui garagem? " + imovel.garagem
             )
-            if (confirmacao)
-            {
+            if (confirmacao) {
                 imoveis.push(imovel)
                 alert("Imovel salvo com sucesso")
-            }else
-            {
+            } else {
                 alert("voltando ao menu!")
             }
             break;
         case "2":
-            for(let i = 0; i < imoveis.length; i++)
-            {
+            for (let i = 0; i < imoveis.length; i++) {
                 alert
-                (
-                    "imovel " + (i+1) +
-                    "\nProprietario: " +imoveis[i].proprietario +
-                    "\nQuartos: " + imoveis[i].quartos +
-                    "\nBanheiros: " + imoveis[i].banheiros +
-                    "\nGaragem: " + imoveis[i].garagem
-                )
+                    (
+                        "imovel " + (i + 1) +
+                        "\nProprietario: " + imoveis[i].proprietario +
+                        "\nQuartos: " + imoveis[i].quartos +
+                        "\nBanheiros: " + imoveis[i].banheiros +
+                        "\nGaragem: " + imoveis[i].garagem
+                    )
             }
             break;
         case "3":
@@ -58,4 +50,4 @@ do
             alert("opcao invalida!")
     }
 
-}while (opcao !== "3")
+} while (opcao !== "3")

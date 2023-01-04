@@ -1,5 +1,4 @@
-function ola()
-{
+function ola() {
     console.log("Ola, mundo!")
 }
 ola()
