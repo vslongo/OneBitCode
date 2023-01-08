@@ -1,5 +1,5 @@
 class Address {
-    constructor (street, number, neighborhood, city, state) {
+    constructor(street, number, neighborhood, city, state) {
         this.street = street
         this.number = number
         this.neighborhood = neighborhood
