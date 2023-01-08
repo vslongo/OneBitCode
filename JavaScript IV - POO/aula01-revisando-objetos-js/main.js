@@ -1,4 +1,4 @@
-function Book(title, pages, tags, author){
+function Book(title, pages, tags, author) {
     this.title = title
     this.pages = pages
     this.tags = tags
@@ -6,15 +6,17 @@ function Book(title, pages, tags, author){
     this.published = false
     this.inStock = 0
     this.addOnStock = function addOnStock(quantity) {
-        this.inStock +=quantity
+        this.inStock += quantity
     }
     this.save = function () {
         // salva no banco de dados
     }
-    
+
 }
 
-const author = { name: "Christopher Paolini" }
+const author = {
+    name: "Christopher Paolini"
+}
 const tags = ["fantasy", "adventure", "medieval"]
 
 const eragon = new Book("Eragon", 468, tags, author)
