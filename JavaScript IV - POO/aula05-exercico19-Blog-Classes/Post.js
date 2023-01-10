@@ -13,5 +13,4 @@ class Post {
         this.comments.push(new Comment(username,content))
     }
 }
-
 module.exports = Post
