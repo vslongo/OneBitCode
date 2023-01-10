@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: grey;
+  min-height: 100vh;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: white;
+}

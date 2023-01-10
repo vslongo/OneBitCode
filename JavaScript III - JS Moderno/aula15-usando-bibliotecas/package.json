@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  },
+  "name": "aula15-usando-bibliotecas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
