@@ -1,5 +1,4 @@
 const Character = require("./Character")
-
 module.exports = class Warrior extends Character {
   constructor(name, lifepoints, attackPts, defensePts, shieldPts) {
     super(name, lifepoints, attackPts, defensePts)
