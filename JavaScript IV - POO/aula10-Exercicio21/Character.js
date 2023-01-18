@@ -5,7 +5,7 @@ module.exports = class Character {
       this.attackPts = attackPts
       this.defensePts = defensePts
     }
-  
+
     attack(targetCharacter) {
       targetCharacter.lifepoints -= this.attackPts - targetCharacter.defensePts
     }
