@@ -9,4 +9,5 @@ module.exports = class Character {
     attack(targetCharacter) {
       targetCharacter.lifepoints -= this.attackPts - targetCharacter.defensePts
     }
+    
   }
