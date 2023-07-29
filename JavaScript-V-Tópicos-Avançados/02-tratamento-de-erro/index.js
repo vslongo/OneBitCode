@@ -9,6 +9,7 @@ function sum(a, b) {
     return firstNumber + secondNumber
 }
 
+
 try{
     console.log(sum(2, 9))
     console.log(sum(true, 14))
